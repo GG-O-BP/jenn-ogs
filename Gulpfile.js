@@ -2,8 +2,8 @@
 
 // Which backend server would you like to use today? ...
 let BACKEND = process.env.OGS_BACKEND || "BETA";
-BACKEND = BACKEND.toUpperCase();
-//BACKEND = 'PRODUCTION';
+// BACKEND = BACKEND.toUpperCase();
+BACKEND = 'PRODUCTION';
 //BACKEND = 'LOCAL';
 
 const spawn = require("child_process").spawn;

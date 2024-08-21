@@ -1,8 +1,6 @@
-Located in `data.get('config').user_jwt` is a JSON Web Token that contains a
-signed copy of everything in `data.get('config').user`. You can use this to
-send authenticated requests to backend services.
+`data.get('config').user_jwt`에 위치한 JSON Web Token은 `data.get('config').user`에 있는 모든 것의 서명된 사본을 포함하고 있습니다. 이를 사용하여 백엔드 서비스에 인증된 요청을 보낼 수 있습니다.
 
-To validate this JWT use the following keys with the `RS256` algorithm:
+이 JWT를 검증하려면 `RS256` 알고리즘을 사용하여 다음 키를 사용하십시오:
 
 # Production public key
 ```

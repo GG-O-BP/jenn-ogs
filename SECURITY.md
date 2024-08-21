@@ -1,9 +1,9 @@
-# Reporting Security Issues
+# 보안 문제 보고
 
-The OGS team and community take security bugs in OGS seriously. We appreciate your efforts to responsibly disclose your findings, and will make every effort to acknowledge your contributions.
+OGS 팀과 커뮤니티는 OGS의 보안 버그를 심각하게 받아들입니다. 책임감 있게 발견 사항을 공개해 주셔서 감사드리며, 기여를 인정하기 위해 최선을 다하겠습니다.
 
-To report a security issue, email [security@online-go.com](mailto:security@online-go.com) and include the word "SECURITY" in the subject line.
+보안 문제를 보고하려면 [security@online-go.com](mailto:security@online-go.com)으로 이메일을 보내고 제목에 "SECURITY"라는 단어를 포함해 주세요.
 
-The OGS team will send a response indicating the next steps in handling your report. After the initial reply to your report, the security team will keep you informed of the progress towards a fix and full announcement, and may ask for additional information or guidance.
+OGS 팀은 보고서 처리의 다음 단계를 알리는 응답을 보낼 것입니다. 보고서에 대한 초기 응답 후, 보안 팀은 수정 및 전체 발표를 향한 진행 상황을 계속 알려드리며, 추가 정보나 지침을 요청할 수 있습니다.
 
-Report security bugs in third-party modules to the person or team maintaining the module.
+서드파티 모듈의 보안 버그는 해당 모듈을 유지 관리하는 사람이나 팀에 보고해 주세요.
