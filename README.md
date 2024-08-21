@@ -1,3 +1,13 @@
+# Tauri + React + Typescript
+
+This template should help get you started developing with Tauri, React and Typescript in Vite.
+
+## Recommended IDE Setup
+
+- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+
+# Online-Go.com
+
 [![Run Status](https://github.com/online-go/online-go.com/actions/workflows/main.yml/badge.svg)](https://github.com/online-go/online-go.com/actions)
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 [![website](https://img.shields.io/website-up-down-green-red/http/online-go.com/.svg?label=online-go)](https://online-go.com/)

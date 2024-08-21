@@ -1,3 +1,25 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
 dist
 node_modules
 typings
@@ -8,7 +30,6 @@ analyze.json
 stats.json
 src/components/base
 todo
-yarn-error.log
 deployment-staging-area
 Makefile.passwords
 how_to_add_a_new_language.txt
@@ -16,9 +37,7 @@ how_to_add_a_new_language.txt
 /.alm/
 package-lock.json
 report.*.json
-neovide_backtraces.log
 
 i18n/data/
 i18n/import/
 i18n/prep-import.js
-npm-debug.log
