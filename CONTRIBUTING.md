@@ -24,7 +24,7 @@ If you're on Windows and need specific help getting tools installed and the repo
 
 (And ... those detailed steps may even be a useful pointer about how to get started under Linux/macOS: they're broadly applicable, even if details differ slightly.)
 
-Once running, you can then navigate to [http://dev.beta.online-go.com:8080/](http://dev.beta.online-go.com:8080/)
+Once running, you can then navigate to [http://dev.beta.online-go.com:1420/](http://dev.beta.online-go.com:1420/)
 which loads the interface from your local server that you just started with gulp, and
 connects to the beta server for testing.
 
@@ -112,7 +112,7 @@ You could poke around in `src/` if you are already curious
 
 This should result in a bunch of packages being installed, then a server starting up and telling you it's running
 
-Navigate to localhost:8080 in your browser and hopefully see your local checkout rendering the Beta server....
+Navigate to localhost:1420 in your browser and hopefully see your local checkout rendering the Beta server....
 
 ... and if that works, we have VSCode done and ready to edit something.
 

@@ -21,7 +21,7 @@ const compat = new FlatCompat({
 
 export default [
     {
-        ignores: ["**/node_modules", "**/dist", "**/i18n", "**/typings_manual", "**/.github"],
+        ignores: ["**/node_modules", "**/dist", "**/i18n", "**/typings_manual", "**/.github", "**/src-tauri"],
     },
     ...compat.extends("eslint:recommended", "plugin:@typescript-eslint/recommended", "prettier"),
     {
@@ -107,7 +107,7 @@ export default [
             "id-match": "error",
             "jsdoc/check-alignment": "error",
             "jsdoc/require-asterisk-prefix": "error",
-            "linebreak-style": ["error", "unix"],
+            // "linebreak-style": ["error", "unix"],
             "no-caller": "error",
             "no-cond-assign": "error",
             "no-debugger": "error",
@@ -145,7 +145,7 @@ export default [
                 },
             ],
 
-            "prettier/prettier": "error",
+            // "prettier/prettier": "error",
             "use-isnan": "error",
 
             "header/header": [

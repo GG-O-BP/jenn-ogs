@@ -165,7 +165,7 @@ function background_webpack(done) {
 //  ... the developer points their browser at this server and magic happens...
 
 function dev_server(done) {
-    const port = 8080; // this is the port on localhost where the developer points their browser to, to get the backend that this proxies
+    const port = 1420; // this is the port on localhost where the developer points their browser to, to get the backend that this proxies
 
     let server_url, use_https;
 
@@ -339,7 +339,7 @@ function dev_server(done) {
         let index = _index.replace(/[{][{]\s*(\w+)\s*[}][}]/g, (_, parameter) => {
             switch (parameter) {
                 case "CDN_SERVICE": {
-                    // We run within a docker container on 8080 but are served out of 443 so no
+                    // We run within a docker container on 1420 but are served out of 443 so no
                     // need to specify a port, just use the same hostname.
                     if (req.hostname?.indexOf("uffizzi") >= 0) {
                         return `//${req.hostname}/`;
